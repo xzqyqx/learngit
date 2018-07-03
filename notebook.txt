@@ -1,0 +1,23 @@
+1.pwd：显示用户当前所在的路径 先用cd进入某个盘再去查看。
+2.ls：显示当前文件夹下的内容
+3.rm -rf ：删除文件和文件夹(没有“”)
+4.cd d:：进入D盘 “要进入的目录”：改变路径
+5.mkdir ：(文件夹名字有没有“”都一样可以添加)要创建文件夹的名字 作用是创建文件夹
+6.git config --global user.name "创建GIT账户名"(有没有“”都一样)
+7.git config --global user.email "创建邮箱账号"
+8.git init :创建版本库（告诉git在哪安家，前提条件：需要用cd命令先进入安家的目录）
+9.git add notebook.txt :把添加/改变文件放到管理员上
+10. git commit -m “修改提示信息” 把添加/改变的文件正式放到仓库。
+11.git status 文件到底有没有变化，查看和之前版本文件做对比是否有改变并找到改掉的文件名。
+12.git diff notebook.txt查看内容，主要看那些内容改过，新增是绿色字体，删除过的内容为红色字体。也可以不加文件名 
+13.git log显示用户所修改的版本信息
+14.git reset --hard versionName(通过git log看到的十六进制版本号，一般前六位即可)；回退到某个时间点。
+
+只有提交后才会产生版本号
+版本退回：
+
+git reset --hard 版本名字 前五个
+扩充:0x标志 efbbbf(16进制)
+第一步：用命令 git add告诉Git，把文件添加到仓库
+
+git log --pretty=oneline 只展示一行信息。
