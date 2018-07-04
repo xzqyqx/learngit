@@ -21,3 +21,13 @@ git reset --hard 版本名字 前五个
 第一步：用命令 git add告诉Git，把文件添加到仓库
 
 git log --pretty=oneline 只展示一行信息。
+
+
+cat 文件名 用来展示当前文件
+
+
+
+
+
+
+
