@@ -13,6 +13,10 @@
 13.git log显示用户所修改的版本信息
 14.git reset --hard versionName(通过git log看到的十六进制版本号，一般前六位即可)；回退到某个时间点。
 
+15 cat filename：显示文件的filename内容
+16 HEAD指针：HAED 指向哪个版本号，当前版本就是谁。
+17 git reflog：展示穿梭的过程（）
+只有提交后才会产生版本号
 只有提交后才会产生版本号
 版本退回：
 
@@ -24,6 +28,9 @@ git log --pretty=oneline 只展示一行信息。
 
 
 cat 文件名 用来展示当前文件
+
+
+后悔药
 
 
 
